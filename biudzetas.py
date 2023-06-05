@@ -42,7 +42,7 @@ def atlikti_veiksma(ivestas_veiksmas: Veiksmas):
     elif ivestas_veiksmas == Veiksmas.GAUTI_ATASKAITA:
         gauti_ataskaita()
     elif ivestas_veiksmas == Veiksmas.ISEITI:
-        pass
+        return
 
 # Įvedimas ir funkcijos kvietimas:
 for veiksmas in Veiksmas:
